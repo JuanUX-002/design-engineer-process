@@ -279,7 +279,7 @@ ul.plain li{ margin-bottom:.5em; max-width:64ch; }
   border-bottom:2.5px solid transparent; margin-bottom:-1px;
 }
 .tab-btn:hover{ color:var(--ink); }
-.tab-btn.active{ color:var(--ink); border-bottom-color:var(--brand-dark,#938602); }
+.tab-btn.active{ color:var(--ink); border-bottom-color:var(--brand); }
 .tab-panel{ display:none; padding-top:20px; }
 .tab-panel.active{ display:block; }
 
@@ -312,7 +312,7 @@ ul.plain li{ margin-bottom:.5em; max-width:64ch; }
 .side-res .n{ font-family:'IBM Plex Mono',monospace; }
 
 /* diagram */
-.diagram{ position:relative; margin:22px 0 8px; padding:0; }
+.diagram{ position:relative; margin:44px 0 40px; padding:0; }
 .diagram-hint{ margin:0 0 8px; font-size:.82rem; color:var(--ink-muted); font-style:italic; }
 
 /* cada etapa se resalta e invita al hover/tap; el detalle aparece como tooltip flotante */
@@ -420,10 +420,10 @@ ul.plain li{ margin-bottom:.5em; max-width:64ch; }
           <title id="diagTitle" data-i18n="p00.diagTitle">Diagrama del proceso de diseño a código</title>
           <desc id="diagDesc" data-i18n="p00.diagDesc">Contexto y research alimenta a Figma. Figma se conecta por MCP a GitHub Copilot. Copilot genera Código. El Código sube al Repositorio. El Repositorio pasa por Revisión (Pull Request + Sonar), y si hay observaciones, el ciclo vuelve a GitHub Copilot para ajustar.</desc>
           <defs>
-            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4.5" markerHeight="4.5" orient="auto-start-reverse">
               <path d="M0,0 L10,5 L0,10 z" fill="var(--accent)"></path>
             </marker>
-            <marker id="arrowMuted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <marker id="arrowMuted" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto-start-reverse">
               <path d="M0,0 L10,5 L0,10 z" fill="var(--ink-muted)"></path>
             </marker>
           </defs>
